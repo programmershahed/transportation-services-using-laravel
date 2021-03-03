@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/userRegistation', [UserregController::class, 'userregistation']);
+Route::post('/userDataRegistationStore', [UserregController::class, 'RegistationDataStore']);
